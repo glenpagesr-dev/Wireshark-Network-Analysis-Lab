@@ -4,7 +4,7 @@
 
 ---
 
-## 📺 [Watch Me Build the Lab Here](PASTE_LOOM_LINK_HERE)
+## 📺 [Watch Me Build the Lab Here](https://github.com/glenpagesr-dev/Wireshark-Network-Analysis-Lab)
 
 ---
 
