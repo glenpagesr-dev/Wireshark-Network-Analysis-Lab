@@ -1,6 +1,8 @@
 # 🦈 Wireshark & Network Analysis Lab
 
-> **Lab 06 | Difficulty:** Beginner–Intermediate | **Estimated Time:** 2–4 Hours | **Tool:** Wireshark (Free) | **Certifications:** · Security+ · 
+> **Lab 06 | Difficulty:** Beginner–Intermediate | **Estimated Time:** 2–4 Hours | **Tool:** Wireshark (Free) | **Certification alignment:** CompTIA Network+ · Security+ · CySA+
+
+
 
 ---
 
