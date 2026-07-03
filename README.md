@@ -179,6 +179,9 @@ Networks carry every piece of data an organization produces — emails, database
 
 <img width="1306" height="514" alt="DNS Lookup 2" src="https://github.com/user-attachments/assets/f67c62ca-9997-413b-82bd-7c9fb7507368" />
 
+<img width="1294" height="697" alt="DNS lookup 3" src="https://github.com/user-attachments/assets/6deb192c-8788-46c2-9888-2779ead81b1b" />
+
+
 
 **Expected Result:**
 > ✅ The IP address in the Wireshark Answers section matches the IP returned by `nslookup` in your terminal.
