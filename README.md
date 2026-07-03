@@ -183,7 +183,7 @@ Networks carry every piece of data an organization produces — emails, database
 **Expected Result:**
 > ✅ The IP address in the Wireshark Answers section matches the IP returned by `nslookup` in your terminal.
 
-![DNS query and response for google.com](screenshots/dns-lookup.png)
+
 
 *Best screenshot moment: right after step 7, with the Answers section expanded and the matching IP visible next to your terminal output.*
 
