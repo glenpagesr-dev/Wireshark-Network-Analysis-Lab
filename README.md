@@ -112,6 +112,9 @@ Networks carry every piece of data an organization produces — emails, database
    ```bash
    wireshark --version
    ```
+<img width="1344" height="840" alt="Wireshark" src="https://github.com/user-attachments/assets/23f8c644-8306-4f6e-b48f-3206c19fc55d" />
+
+
 
 **Expected Result:**
 > ✅ Wireshark launches and the welcome screen lists your available capture interfaces.
@@ -130,6 +133,10 @@ Networks carry every piece of data an organization produces — emails, database
 
 **Expected Result:**
 > ✅ You have a capture with hundreds or thousands of packets from 30 seconds of browsing. This volume is exactly why display filters exist.
+
+<img width="1334" height="516" alt="Packet Capture" src="https://github.com/user-attachments/assets/274fc789-80fb-4e33-928b-65dfef42a3dc" />
+
+
 
 ---
 
@@ -168,6 +175,11 @@ Networks carry every piece of data an organization produces — emails, database
 6. Find the response packet — Info column shows `Standard query response A google.com`.
 7. Click the response packet, expand **Domain Name System (response)** in the detail pane, then expand **Answers** to see the A record IP address. Confirm it matches your terminal output.
 
+<img width="1342" height="508" alt="DNS lookup" src="https://github.com/user-attachments/assets/0dcae038-cab1-4e16-86e3-dccf030c174e" />
+
+<img width="1306" height="514" alt="DNS Lookup 2" src="https://github.com/user-attachments/assets/f67c62ca-9997-413b-82bd-7c9fb7507368" />
+
+
 **Expected Result:**
 > ✅ The IP address in the Wireshark Answers section matches the IP returned by `nslookup` in your terminal.
 
@@ -196,6 +208,12 @@ Networks carry every piece of data an organization produces — emails, database
 
 > A SYN with no SYN-ACK means the connection was refused or the server is unreachable. A RST packet means the connection was forcibly closed. These are the two most common patterns network engineers look for.
 
+<img width="1299" height="492" alt="TCP Handshake1" src="https://github.com/user-attachments/assets/2a2575d6-b51b-4a40-b075-dc1eb057a009" />
+
+<img width="540" height="142" alt="TCP Handshake 2" src="https://github.com/user-attachments/assets/6708bb3d-c9a4-40e6-9ba7-3f79ee9bfa8c" />
+
+
+
 **Expected Result:**
 > ✅ All three handshake packets are visible in sequence, confirming a successful TCP connection before any HTTP data flows.
 
@@ -219,6 +237,11 @@ Networks carry every piece of data an organization produces — emails, database
 6. Click the POST packet and expand **HTML Form URL Encoded** in the detail pane.
 7. You'll see the username and password in plaintext.
 
+<img width="1304" height="786" alt="Cleartext Credentials" src="https://github.com/user-attachments/assets/51b226a6-0b7d-445a-96c9-9b6ba06d2e4a" />
+
+
+
+
 **Expected Result:**
 > ✅ The username and password submitted in step 3 appear in cleartext inside the HTML Form URL Encoded section — proof the data was never encrypted in transit.
 
@@ -241,6 +264,9 @@ This is exactly why every login form must use HTTPS. Without TLS, anyone on the 
 
 **Expected Result:**
 > ✅ The full request/response conversation is readable top to bottom in a single window, with request and response color-coded.
+
+<img width="1280" height="770" alt="Follow TCP Stream" src="https://github.com/user-attachments/assets/3c9ace8b-5aed-4390-a3fc-b4b0f392678c" />
+
 
 ![Follow TCP Stream conversation](screenshots/tcp-stream-follow.png)
 
