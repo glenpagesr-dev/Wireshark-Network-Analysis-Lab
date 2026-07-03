@@ -188,8 +188,6 @@ Networks carry every piece of data an organization produces — emails, database
 
 
 
-*Best screenshot moment: right after step 7, with the Answers section expanded and the matching IP visible next to your terminal output.*
-
 ---
 
 ### Phase 5 — Exercise B: Watch the TCP Three-Way Handshake
@@ -220,9 +218,6 @@ Networks carry every piece of data an organization produces — emails, database
 **Expected Result:**
 > ✅ All three handshake packets are visible in sequence, confirming a successful TCP connection before any HTTP data flows.
 
-![TCP three-way handshake](screenshots/tcp-handshake.png)
-
-*Best screenshot moment: shift-click all three packets so SYN, SYN-ACK, and ACK are visible together in one shot.*
 
 ---
 
@@ -248,9 +243,6 @@ Networks carry every piece of data an organization produces — emails, database
 **Expected Result:**
 > ✅ The username and password submitted in step 3 appear in cleartext inside the HTML Form URL Encoded section — proof the data was never encrypted in transit.
 
-![HTTP POST cleartext credentials - test account only](screenshots/http-post-credentials.png)
-
-*Best screenshot moment: HTML Form URL Encoded expanded. **Blur or redact the credential values before publishing** if there is any chance they resemble a real account.*
 
 This is exactly why every login form must use HTTPS. Without TLS, anyone on the network path — your ISP, a coffee shop router, or an attacker performing a man-in-the-middle — can read credentials exactly as typed.
 
@@ -270,10 +262,6 @@ This is exactly why every login form must use HTTPS. Without TLS, anyone on the 
 
 <img width="1280" height="770" alt="Follow TCP Stream" src="https://github.com/user-attachments/assets/3c9ace8b-5aed-4390-a3fc-b4b0f392678c" />
 
-
-![Follow TCP Stream conversation](screenshots/tcp-stream-follow.png)
-
-*Best screenshot moment: the Follow TCP Stream window, fully scrolled to show both the red request and blue response.*
 
 ---
 
@@ -300,9 +288,6 @@ tshark -i eth0 -w capture.pcapng -c 1000
 **Expected Result:**
 > ✅ Four `.pcapng` evidence files exist on disk: `dns-lookup.pcapng`, `tcp-handshake.pcapng`, `http-post-credentials.pcapng`, and `tcp-stream-follow.pcapng`.
 
-![Four saved evidence captures ready for upload](screenshots/saved-captures-folder.png)
-
-*Best screenshot moment: your file browser showing all four saved `.pcapng` files, right before uploading to GitHub.*
 
 ---
 
